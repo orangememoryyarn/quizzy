@@ -5,12 +5,6 @@ const formattedDate = today.toLocaleDateString("en-US", options);
 
 document.getElementById("topic-date").innerText = formattedDate;
 
-<<<<<<< Updated upstream
-const teacher_name = localStorage.getItem('t_name');
-
-var list_up = localStorage.getItem('t_plan');
-=======
->>>>>>> Stashed changes
 var listup = [
     {"Spanish": "en casa", "English": "at home"},
     {"Spanish": "el balcón", "English": "balcony"},
@@ -80,12 +74,8 @@ var listup = [
     {"Spanish": "inesperado(a)", "English": "unexpected"}
 ];
 
-<<<<<<< Updated upstream
-document.getElementById("q_card_front").innerText = listup[0][0];
-=======
 // Initialize the quiz box with the first Spanish term
 document.getElementById("quiz_box").innerText = listup[0].Spanish;
->>>>>>> Stashed changes
 
 var position = 0;
 var set = 'Spanish';
@@ -100,18 +90,7 @@ document.getElementById("q_back").addEventListener('click', () => {
     document.getElementById("quiz_box").innerText = listup[position][set];
 });
 
-<<<<<<< Updated upstream
-
-
-
-
-document.getElementById("quiz_box").addEventListener('click',() =>
-{
-  if(set==0) {set=2;} else {set=0;}
-  document.getElementById("quiz_box").innerText = listup[position][set];
-=======
 document.getElementById("quiz_box").addEventListener('click', () => {
     set = (set === 'Spanish') ? 'English' : 'Spanish';
     document.getElementById("quiz_box").innerText = listup[position][set];
->>>>>>> Stashed changes
 });
