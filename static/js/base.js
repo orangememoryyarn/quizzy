@@ -108,6 +108,6 @@ document.getElementById("q_back").addEventListener('click',() =>
 
 document.getElementById("quiz_box").addEventListener('click',() =>
 {
-  if(set==0) {set=1;} else {set=0;}
+  if(set==0) {set=2;} else {set=0;}
   document.getElementById("quiz_box").innerText = listup[position][set];
 });
