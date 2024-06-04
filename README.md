@@ -1,3 +1,3 @@
-# quizzy : Spanish HW Flashcards for Sra. Castañeda
-Made by Mannat
-because building my own stuff > quizlet > flashcards
+# Quizzy
+
+A simple flashcards website for College Spanish 4 2023-2024
